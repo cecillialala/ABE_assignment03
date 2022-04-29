@@ -9,3 +9,9 @@
 ## 3. THEN Inside of the Node/NodeSender run - npm run start
 
 ## 4. Check the RabbitMQ server for messages :)
+
+## What is missing
+
+- C# Sender (Looks a bit like NodeSender, just in C# instead)
+- C# Confirmer
+- Testing that the "MQConfirms" (Can only be tested when C# projects are done) works.
