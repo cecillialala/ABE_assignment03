@@ -4,14 +4,14 @@
   "description": "RabbitMQ hello world",
   "main": "server.js",
   "scripts": {
-    "send": "node send.js",
-    "receive": "node receive.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "rabbitmq": "docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management"
   },
   "author": "Poul / www.rabbitmq.com/tutorials",
   "license": "ISC",
   "dependencies": {
-    "amqplib": "^0.8.0"
+    "amqplib": "^0.8.0",
+    "mongoose": "^6.2.9"
   }
 }
 

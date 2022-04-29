@@ -1,0 +1,15 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "RabbitMQ hello world",
+  "main": "send.js",
+  "scripts": {
+    "start": "node send.js"
+  },
+  "author": "Poul / www.rabbitmq.com/tutorials",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  }
+}
+
