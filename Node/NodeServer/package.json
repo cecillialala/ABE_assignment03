@@ -4,11 +4,21 @@
   "description": "RabbitMQ hello world",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "tsc": "tsc -w",
+    "start": "nodemon dist/server.js",
     "rabbitmq": "docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management"
   },
   "author": "Poul / www.rabbitmq.com/tutorials",
   "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/express": "^4.17.13",
+    "@types/mongoose": "^5.11.97",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.2",
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.5"
+  },
   "dependencies": {
     "amqplib": "^0.8.0",
     "mongoose": "^6.2.9"
