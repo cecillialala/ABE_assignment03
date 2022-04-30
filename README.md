@@ -18,8 +18,12 @@
 
 ### 4. Check the RabbitMQ server for messages :)
 
-### What is missing
+### 5. C# Sender
+#### Inside CSharpSender dotnet run
 
-- C# Sender (Looks a bit like NodeSender, just in C# instead)
-- C# Confirmer
-- Testing that the "MQConfirms" (Can only be tested when C# projects are done) works.
+### 6. C# Confirmer
+#### Inside CSharpConfirmationReceiver dotnet run
+
+### What is missing
+### Testing that the "MQConfirms" (Can only be tested when C# projects are done) works.
+### We are not sure the confirmer works like the way it's implemented 

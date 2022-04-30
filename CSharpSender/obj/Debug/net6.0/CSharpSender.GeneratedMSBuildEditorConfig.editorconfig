@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CSharpSender
+build_property.ProjectDir = C:\Users\laohu\OneDrive - Aarhus universitet\Skrivebord\A.U\6.Semester\Advanced Backend Development\Assignment\Assignment3\Real Assignment3\ABE_assignment03\CSharpSender\

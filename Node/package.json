@@ -1,0 +1,17 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "RabbitMQ hello world",
+  "main": "server.js",
+  "scripts": {
+    "send": "node send.js",
+    "receive": "node receive.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Poul / www.rabbitmq.com/tutorials",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  }
+}
+
