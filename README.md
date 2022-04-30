@@ -12,19 +12,19 @@
 
 - Inside of NodeServer run - npm run start
 
-### 6. C# Confirmer
+### 4. C# Confirmer
 
 - Inside of CSharpConfirmer run - dotnet run
 
-### 3. NodeSender
+### 5. NodeSender
 
 - Inside of NodeSender run - npm run start
 
-### 5. C# Sender
+### 6. C# Sender
 
 - Inside of CSharpSender run - dotnet run
 
-### 6. Check RabbitMQ
+### 7. Check RabbitMQ
 - Goto: http://localhost:15672/#/queues and check out the two queues.
   - Username: guest
   - Password: guest
