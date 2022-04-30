@@ -143,19 +143,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\laohu\\.nuget\\packages\\": {}
+    "C:\\Users\\Mudi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\laohu\\OneDrive - Aarhus universitet\\Skrivebord\\A.U\\6.Semester\\Advanced Backend Development\\Assignment\\Assignment3\\Real Assignment3\\ABE_assignment03\\CSharpSender\\CSharpSender.csproj",
+      "projectUniqueName": "C:\\Users\\Mudi\\Desktop\\Aarhus Universitet\\6. semester\\SWABE\\ABE_assignment03\\CSharpSender\\CSharpSender.csproj",
       "projectName": "CSharpSender",
-      "projectPath": "C:\\Users\\laohu\\OneDrive - Aarhus universitet\\Skrivebord\\A.U\\6.Semester\\Advanced Backend Development\\Assignment\\Assignment3\\Real Assignment3\\ABE_assignment03\\CSharpSender\\CSharpSender.csproj",
-      "packagesPath": "C:\\Users\\laohu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\laohu\\OneDrive - Aarhus universitet\\Skrivebord\\A.U\\6.Semester\\Advanced Backend Development\\Assignment\\Assignment3\\Real Assignment3\\ABE_assignment03\\CSharpSender\\obj\\",
+      "projectPath": "C:\\Users\\Mudi\\Desktop\\Aarhus Universitet\\6. semester\\SWABE\\ABE_assignment03\\CSharpSender\\CSharpSender.csproj",
+      "packagesPath": "C:\\Users\\Mudi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mudi\\Desktop\\Aarhus Universitet\\6. semester\\SWABE\\ABE_assignment03\\CSharpSender\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\laohu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mudi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -205,7 +205,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

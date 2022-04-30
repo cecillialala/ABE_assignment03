@@ -12,18 +12,20 @@
 
 #### npm run start
 
+### 6. C# Confirmer
+
+#### Inside CSharpConfirmer dotnet run
+
 ### 3. THEN Inside of the Node/NodeSender run
 
 #### npm run start
 
-### 4. Check the RabbitMQ server for messages :)
-
 ### 5. C# Sender
+
 #### Inside CSharpSender dotnet run
 
-### 6. C# Confirmer
-#### Inside CSharpConfirmationReceiver dotnet run
+### 6. Check RabbitMQ
 
-### What is missing
-### Testing that the "MQConfirms" (Can only be tested when C# projects are done) works.
-### We are not sure the confirmer works like the way it's implemented 
+- Goto: http://localhost:15672/#/queues and check out the two queues.
+  - Username: guest
+  - Password: guest
