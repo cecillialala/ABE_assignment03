@@ -1,8 +1,8 @@
 # ABE_assignment03 - Rabbit MQ
 
-### 1. Run RabbitMQ server from the Node/NodeServer folder
+### 1. Run RabbitMQ server
 
-- Inside from the NodeServer folder run - npm run rabbitmq
+- Inside of NodeServer run - npm run rabbitmq
 
 ### 2. Compiling the Typescript files
 
