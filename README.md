@@ -2,30 +2,29 @@
 
 ### 1. Run RabbitMQ server from the Node/NodeServer folder
 
-#### npm run rabbitmq
+- Inside from the NodeServer folder run - npm run rabbitmq
 
-### 2. Inside of Node/NodeServer & Node/NodeSender run
+### 2. Compiling the Typescript files
 
-#### npm run tsc
+- Inside of NodeServer & NodeSender run - npm run tsc
 
-### 3. Inside Node/NodeServer run
+### 3. NodeServer
 
-#### npm run start
+- Inside of NodeServer run - npm run start
 
 ### 6. C# Confirmer
 
-#### Inside CSharpConfirmer dotnet run
+- Inside of CSharpConfirmer run - dotnet run
 
-### 3. THEN Inside of the Node/NodeSender run
+### 3. NodeSender
 
-#### npm run start
+- Inside of NodeSender run - npm run start
 
 ### 5. C# Sender
 
-#### Inside CSharpSender dotnet run
+- Inside of CSharpSender run - dotnet run
 
 ### 6. Check RabbitMQ
-
 - Goto: http://localhost:15672/#/queues and check out the two queues.
   - Username: guest
   - Password: guest
