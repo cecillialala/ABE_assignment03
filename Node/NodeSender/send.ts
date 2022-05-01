@@ -24,7 +24,7 @@ amqp.connect("amqp://localhost", function (error0: any, connection: any) {
     var msg = JSON.stringify(reservationBooking);
 
     channel.assertQueue(queue, {
-      durable: false,
+      durable: true,
     });
     channel.sendToQueue(queue, Buffer.from(msg));
 

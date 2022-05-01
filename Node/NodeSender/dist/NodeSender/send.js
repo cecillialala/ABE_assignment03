@@ -22,7 +22,7 @@ amqp.connect("amqp://localhost", function (error0, connection) {
         };
         var msg = JSON.stringify(reservationBooking);
         channel.assertQueue(queue, {
-            durable: false,
+            durable: true,
         });
         channel.sendToQueue(queue, Buffer.from(msg));
         console.log(" [x] Sent %s", msg);

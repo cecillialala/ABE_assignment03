@@ -15,7 +15,7 @@ namespace CsharpConfirmationReceiver
             using (var channel = connection.CreateModel())
             {
                 channel.QueueDeclare(queue: "MQConfirms",
-                                     durable: false,
+                                     durable: true,
                                      exclusive: false,
                                      autoDelete: false,
                                      arguments: null);

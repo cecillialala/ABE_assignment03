@@ -23,13 +23,13 @@ amqp.connect("amqp://localhost", function (error0: any, connection: any) {
 
     var queue = "MQReservation";
     channel.assertQueue(queue, {
-      durable: false,
+      durable: true,
     });
     channel.prefetch(1);
 
     var confirmQueue = "MQConfirms";
     channel.assertQueue(queue, {
-      durable: false,
+      durable: true,
     });
 
     console.log("[*] Waiting for messages in %s. To exit press CTRL+C", queue);

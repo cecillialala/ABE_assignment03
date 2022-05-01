@@ -13,7 +13,7 @@ class Send
         using (var channel = connection.CreateModel())
         {
             channel.QueueDeclare(queue: "MQReservation",
-                                 durable: false,
+                                 durable: true,
                                  exclusive: false,
                                  autoDelete: false,
                                  arguments: null);
