@@ -40,7 +40,10 @@ amqp.connect("amqp://localhost", function (error0: any, connection: any) {
         console.log(" [x] Received %s", msg.content.toString());
         var bookedReservation = JSON.parse(msg.content);
         var { id } = await new ReservationModel(bookedReservation).save();
-        channel.sendToQueue(confirmQueue, Buffer.from(id));
+        channel.sendToQueue(
+          confirmQueue,
+          Buffer.from(bookedReservation.customerName + " " + id)
+        );
       },
       {
         noAck: true,
